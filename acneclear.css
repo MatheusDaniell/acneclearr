@@ -44,7 +44,7 @@ div :id {
 
 h1 {
    font-family: 'Archivo Black', sans-serif; 
-   text-shadow: -4px 5px 1px #0000002f;
+   
    text-align: center;
 
 }
@@ -59,6 +59,8 @@ h2 {
 
 
 h3 {
+
+  color: #000000da;
   margin-bottom: 75px;
   margin-left: 9%;
   width: 84% ;
