@@ -43,17 +43,20 @@ div :id {
 
 
 h1 {
-   font-family: 'Archivo Black', sans-serif; 
-   
-   text-align: center;
+  font-family: "Contrail One", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  text-align: center;
+  
 
 }
 
 h2 {
 
-   font-family: 'Roboto', sans-serif;
-   text-align: left;
-   margin: 70 auto;
+  font-family: "DM Sans", sans-serif;
+  font-weight: weight;
+  font-style: normal;
+  margin-bottom: 70px;
    
 }
 
@@ -61,11 +64,13 @@ h2 {
 h3 {
 
   color: #000000cc;
-  margin-bottom: 75px;
+  margin-bottom: 50px;
   margin-left: 9%;
-  width: 84% ;
-  font-size: 32px;
-  font-family: 'Roboto', sans-serif;
+  width: 84%;
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: weight;
+  font-style: normal;
   text-align: center;
 
 }
@@ -73,9 +78,9 @@ h3 {
 h4 {
 
   font-family: 'Roboto', sans-serif;
-  width: 95% ;
-  margin-left: 4%;
-  font-size: 45px;
+  width: 70% ;
+  margin-left: 14%;
+  font-size: 30px;
 
 }
 
@@ -89,6 +94,8 @@ h5 {
 }
 
 
+
+/*CODIGO DO BOTAO*/
 
 body {
  background-image: linear-gradient(#ffc7c7)
@@ -104,13 +111,13 @@ button {
   margin: 20px;
 }
 .custom-btn {
-  width: 130px;
-  height: 40px;
+  width: 10px;
+  height: 10px;
   color: #fff;
   border-radius: 5px;
   padding: 10px 25px;
   font-family: 'Lato', sans-serif;
-  font-weight: 500;
+  font-weight: 100;
   background: transparent;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -134,7 +141,7 @@ button {
 .btn-14:after {
   position: absolute;
   content: "";
-  width: 100%;
+  width: 10%;
   height: 0;
   top: 0;
   left: 0;
@@ -181,14 +188,19 @@ body {
  button {
    margin: 20px;
  }
+
+
+
+ /*GERAL DO BOTAO*/
  .custom-btn {
-   width: 600px;
-   height: 150px;
+   width: 480px;
+   height: 120px;
+   font-size: 55px;
    color: #fff;
    border-radius: 40px;
-   padding: 10px 25px;
+   padding: 1px 5px;
    font-family: 'Lato', sans-serif;
-   font-weight: 500;
+   font-weight: 100;
    background: transparent;
    cursor: pointer;
    transition: all 0.3s ease;
@@ -246,9 +258,7 @@ body {
  }
 
  video {
-
   border-radius: 10px;
-
  }
 
  
@@ -279,3 +289,4 @@ body {
       margin: 10px 0;
   }
 }
+
