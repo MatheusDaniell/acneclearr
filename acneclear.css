@@ -32,6 +32,14 @@ div :id {
 
  }
 
+.main{
+  display: inline-block;
+  width: 99%;
+  font-size: 40px;
+  color:#3D1501 ;
+  text-align: center;
+  margin-left: 1%;
+}
 
 
 h1 {
@@ -81,7 +89,8 @@ h5 {
    
   font-family: 'Kanit', sans-serif;
   font-family: 'Libre Baskerville', serif;
-  font-size: 13px;
+  font-size: 15px;
+  color: #3D1501;
 
 
 }
