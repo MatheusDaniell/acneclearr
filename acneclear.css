@@ -98,6 +98,17 @@ div :id {
     text-transform: uppercase;
     }
 
+  .md {
+    font-family: "Wittgenstein", serif;
+    font-weight: 800;
+    font-style: normal;
+    
+}
+
+
+  
+
+
 h1 {
    font-family: 'Archivo Black', sans-serif;
   
