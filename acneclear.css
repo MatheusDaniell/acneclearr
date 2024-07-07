@@ -59,9 +59,9 @@ div :id {
 .me{
     margin-left: 25px;
     margin-top: 5px; 
-    font-size: 30px; 
+    font-size: 27px; 
     display: inline-block; 
-    width: 65%; 
+    width: 80%; 
     font-family: "Baskervville SC", serif;
     font-weight: 800;
     font-style: normal;
@@ -71,7 +71,7 @@ div :id {
 .custom-font {
   margin-left: 20px; 
   margin-top: 20px; 
-  font-size: 50px;
+  font-size: 60px;
   margin-bottom: 30px;
   font-family: "PT Serif", serif;
   font-weight: 700;
