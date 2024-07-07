@@ -61,7 +61,7 @@ div :id {
     margin-top: 5px; 
     font-size: 27px; 
     display: inline-block; 
-    width: 75%; 
+    width: 80%; 
     font-family: "Baskervville SC", serif;
     font-weight: 800;
     font-style: normal;
@@ -114,7 +114,7 @@ div :id {
 }
 
 .container {
-  padding: 50px; /* Espaçamento interno */
+  padding: 70px; /* Espaçamento interno */
   border-radius: 5px; /* Bordas arredondadas */
   justify-content: space-between; /* Espaça os itens uniformemente */
   gap: 20px; /* Espaçamento entre a imagem e o texto */
