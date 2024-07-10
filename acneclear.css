@@ -49,9 +49,9 @@ div :id {
 
 .main{
   display: inline-block;
-  width: 85%;
-  font-size: 25px;
-  margin-bottom: 10px;
+  width: 80%;
+  font-size: 21px;
+  margin-bottom: 100px;
   color:#3b1400 ;
 
 }
@@ -118,8 +118,21 @@ div :id {
 .container {
   padding: 70px; /* Espaçamento interno */
   border-radius: 5px; /* Bordas arredondadas */
-  justify-content: space-between; /* Espaça os itens uniformemente */
-  gap: 20px; /* Espaçamento entre a imagem e o texto */
+  justify-content: space-between;
+  
+}
+
+.container img {
+  width: 30%; /* Ajuste a largura conforme necessário */
+}
+
+.opem{ 
+  font-size: 55px;
+  font-family:"Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #3D1501;
 }
 
 h1 {
