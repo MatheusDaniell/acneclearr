@@ -140,13 +140,6 @@ display: inline-block;
   width: 30%; /* Ajuste a largura conforme necessário */
 }
 
-
-img, p {
-  display: inline-block
-
-
-}
-
 .opem{ 
   font-size: 55px;
   font-family:"Playfair Display", serif;
