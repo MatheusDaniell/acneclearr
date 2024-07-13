@@ -115,15 +115,32 @@ div :id {
     color: #3D1501;
 }
 
-.container {
+.container-c {
   padding: 70px; /* Espaçamento interno */
   border-radius: 5px; /* Bordas arredondadas */
   justify-content: space-between;
+ 
   
 }
 
+.container{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+
+}
+
 .container img {
-  width: 50%; /* Ajuste a largura conforme necessário */
+  width: 30%; /* Ajuste a largura conforme necessário */
+}
+
+
+img, p {
+  display: inline-block
+
+
 }
 
 .opem{ 
