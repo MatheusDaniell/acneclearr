@@ -107,11 +107,11 @@ div :id {
 }
 
   .che {
-    width: 55%; 
+    width: 64%; 
     font-family: "Anton SC", sans-serif;
     font-weight: 600;
     font-style: italic;
-    font-size: 32px;
+    font-size: 35px;
     color: #3D1501;
 }
 
@@ -128,7 +128,6 @@ div :id {
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
-  
 
 }
 
