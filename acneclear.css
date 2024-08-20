@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
 
-
+@media screen and (max-width: 768px){
+  
+}
 
 div :id {
   width: 100px;
@@ -91,7 +93,7 @@ div :id {
   padding-top: 10px;
   padding-bottom: 10px;
   width: 101%;
-  background-color: rgb(238, 0, 0);
+  background-color: #ff5465;
   }
 
   .nome {
@@ -113,7 +115,7 @@ div :id {
     font-weight: 600;
     font-style: italic;
     font-size: 37px;
-    color: #3D1501;
+    color: #461800;
 }
 
 .container-c {
@@ -212,7 +214,7 @@ button {
   z-index: -1;
   border-radius: 5px;
   background-color: #ff0011;
-  background-image: linear-gradient(315deg, #3cff00 0%, #000000 74%);
+  background-image: linear-gradient(315deg,  #ff6d7c 0%,  #ff707e );
    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5)
    7px 7px 20px 0px rgba(0,0,0,.1),
    4px 4px 5px 0px rgba(0,0,0,.1);
@@ -272,7 +274,7 @@ body {
  }
  
  .btn-14 {
-   background: rgb(255, 33, 177);
+   background: #ff8593;
    border: none;
    z-index: 1;
  }
@@ -286,7 +288,7 @@ body {
    z-index: -5;
    border-radius: 40px;
    background-color: #fd9d6d;
-   background-image: linear-gradient(315deg, #ff278f 0%, #ff0088 74%);
+   background-image: linear-gradient(315deg,  #ff808c #ff808c,  #ff808c);
     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5)
     7px 7px 20px 0px rgba(0,0,0,.1),
     4px 4px 5px 0px rgba(0,0,0,.1);
