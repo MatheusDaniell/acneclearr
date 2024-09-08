@@ -80,7 +80,7 @@ div :id {
   font-family: "PT Serif", serif;
   font-weight: 700;
   font-style: normal;
-  color: #ffe9e9;   ;
+  color: #f52951;   ;
   
 }
 
@@ -195,6 +195,34 @@ button {
   outline: none;
 }
 
+.accordions{
+  width:600px;
+  margin:0 auto;
+  border:1px solid #ccc;
+}
+.accordion-item input{
+display:none;
+}
+.accordion-item label{
+  display:block;
+  border:1px solid #ccc;
+  background:#e5e5e5;
+  cursor:pointer;
+padding:5px 3px;
+}
+.accordion-content{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.3s ease-in-out;
+  -moz-transition: height 0.3s ease-in-out;
+  -o-transition: height 0.3s ease-in-out;
+  -ms-transition: height 0.3s ease-in-out;
+  transition: height 0.3s ease-in-out;
+}
+[id^=accordion]:checked ~ .accordion-content {
+  height: 100px;
+}
+
 
 /* Botão CSS */
 .btn-14 {
@@ -255,8 +283,8 @@ body {
    margin: 20px;
  }
  .custom-btn {
-   width: 600px;
-   height: 150px;
+   width: 650px;
+   height: 180px;
    color: #fff;
    border-radius: 50px;
    padding: 10px 25px;
@@ -350,5 +378,56 @@ body {
 
   nav li {
       margin: 10px 0;
+  }
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.container .image {
+  flex: 1 1 40%;
+  padding: 5px;
+  order: 2;
+}
+
+.container .image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.container .text {
+  flex: 1 1 55%;
+  padding: 10px;
+  order: 1;
+}
+
+.container .text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.container .text p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .container .image,
+  .container .text {
+    flex: 1 1 100%;
+    order: initial;
   }
 }
