@@ -11,7 +11,7 @@
      <!--Tag que permite que as palavras tenham acentuação-->
      <meta charset=" UTF-8">
 
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 
       <!--dominio da pagina-->
      <title>AcneClear </title>
@@ -239,29 +239,5 @@
     <h3 style="width: 70%; margin-bottom: -20px; font-size: 25px; margin-top: 30px;"> ©2024 AcneClear</h3>
 
     </form>
-
-    <script>
-      const acordeonTitulos = document.querySelectorAll('.acordeon-titulo');
-
-      acordeonTitulos.forEach(titulo => {
-          titulo.addEventListener('click', function () {
-              const conteudo = this.nextElementSibling;
-              
-              // Fecha todos os outros conteúdos
-              document.querySelectorAll('.acordeon-conteudo').forEach(conteudoItem => {
-                  if (conteudoItem !== conteudo) {
-                      conteudoItem.style.display = 'none';
-                  }
-              });
-
-              // Alterna a exibição do conteúdo clicado
-              if (conteudo.style.display === 'block') {
-                  conteudo.style.display = 'none';
-              } else {
-                  conteudo.style.display = 'block';
-              }
-          });
-      });
-    </script>
   </body>
 </html>
