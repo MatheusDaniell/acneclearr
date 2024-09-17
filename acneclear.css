@@ -52,10 +52,15 @@ div :id {
  .cor{
  background-color: #ffffff;
 
-
-
 }
 
+ .retirar{
+  margin: 0;
+  padding: 0;
+  display: block;
+  
+
+ }
 
 .main{
   display: inline-block;
