@@ -107,7 +107,7 @@ div :id {
 
 
 .text1{
-  font-size: 95px;
+  font-size: 99px;
   margin-bottom: 100px;
   margin-top: 70px;
   margin-left: 35px; 
@@ -132,18 +132,18 @@ div :id {
   margin-left: 40px;
   margin-right: -25px;
   margin-top: 4px; 
-  font-size: 18px; 
+  font-size: 16px; 
   display: inline-block; 
   width: 80%; 
   font-family: "Baskervville SC", serif;
-  font-weight: 550;
+  font-weight: 500;
   font-style: normal;
   color: #5c1f00
 
 }
 
 .text2{
-  font-size: 95px;
+  font-size: 99px;
   margin-bottom: 150px;
   margin-left: -30px; 
   color:#ff456a;
@@ -166,7 +166,7 @@ div :id {
 }
 .mee {
   margin-top: 80px;
-  margin-left: -40px; 
+  margin-left: -20px; 
   font-size: 80px;
   margin-bottom: 30px;
   font-family:"Rubik", sans-serif;
@@ -176,7 +176,7 @@ div :id {
 }
 
 .ter {
-  margin-left: -20px; 
+  margin-left: -0px; 
   margin-top: -40px;
   font-size: 50px;
  width: 50%;
