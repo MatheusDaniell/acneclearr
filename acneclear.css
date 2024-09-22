@@ -54,17 +54,7 @@ div :id {
 
 }
 
- .retirar{
-  margin: 0;
-  padding: 0;
-  display: block;
-  image-rendering: optimizeSpeed;
-  position: absolute; 
-  left: 0px;
-  top: 0px;
-
- }
-
+ 
 .main{
   display: inline-block;
   width: 87%;
@@ -139,7 +129,20 @@ div :id {
   border-radius: 5px; /* Bordas arredondadas */
   justify-content: space-between;
  
-  
+}
+
+.retiarar {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  overflow: hidden; /* Isso garante que qualquer excesso seja cortado */
+}
+
+.retiarar svg {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 img, p{
