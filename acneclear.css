@@ -87,7 +87,7 @@ div :id {
   font-family: "PT Serif", serif;
   font-weight: 600;
   font-style: normal;
-  color: rgb(219, 45, 97)
+  color: rgb(224, 39, 95)
   
 }
 
@@ -99,9 +99,9 @@ div :id {
     display: inline-block; 
     width: 85%; 
     font-family: "Baskervville SC", serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
-    color: #421600
+    color: #5c1f00
 }
 
 
