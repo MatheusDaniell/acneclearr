@@ -94,7 +94,7 @@ div :id {
     margin-left: -28px;
     margin-right: -25px;
     margin-top: 4px; 
-    font-size: 15px; 
+    font-size: 20px; 
     display: inline-block; 
     width: 85%; 
     font-family: "Baskervville SC", serif;
@@ -102,6 +102,45 @@ div :id {
     font-style: normal;
     color: #913000
 }
+
+.text1{
+  font-size: 80px;
+  margin-bottom: 100px;
+  margin-top: 70px;
+  margin-left: 30px; 
+  color:#ff456a;
+  width: 70%;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.custom {
+  margin-left: 32px; 
+  margin-right: -33px;
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(214, 27, 83)
+}
+
+.med{
+  margin-left: 31px;
+  margin-right: -25px;
+  margin-top: 4px; 
+  font-size: 20px; 
+  display: inline-block; 
+  width: 85%; 
+  font-family: "Baskervville SC", serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #913000
+
+}
+
+
 
 
   .div-com-nome{
