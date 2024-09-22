@@ -54,13 +54,26 @@ div :id {
 
 }
 
+.text{
+  font-size: 60px;
+   margin-bottom: 150px;
+   margin-left: -30px; 
+  color:#ff456a;
+   width: 70%;
+   font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+ 
+}
+
+
  
 .main{
   display: inline-block;
   width: 87%;
   font-size: 18px;
   margin-bottom: 100px;
-  color:#3b1400 ;
+  color:#461700 ;
 
 }
 
@@ -74,7 +87,7 @@ div :id {
     font-family: "Baskervville SC", serif;
     font-weight: 800;
     font-style: normal;
-    color: #4b1801ea;
+    color: #913000
 }
 
 .custom-font {
@@ -86,7 +99,7 @@ div :id {
   font-family: "PT Serif", serif;
   font-weight: 700;
   font-style: normal;
-  color: #ffe9e9;   ;
+  color: rgb(235, 29, 91)
   
 }
 
