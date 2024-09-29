@@ -114,7 +114,7 @@ div :id {
   color: #ff456a;
   width: 70%;
   font-family: "Rubik", sans-serif;
-  font-weight: 350;
+  font-weight: 400;
   font-style: italic;
 }
 
@@ -149,7 +149,7 @@ div :id {
   color:#ff456a;
   width: 80%;
   font-family: "Rubik", sans-serif;
-  font-weight: 350;
+  font-weight: 400;
    font-style: italic;
 
 }
@@ -190,7 +190,7 @@ div :id {
 
 .mei {
   margin-top: -25px;
-  font-size: 15px;
+  font-size: 10px;
   font-family: "PT Serif", serif;
   font-weight: 500;
   font-style: italic;
