@@ -235,11 +235,13 @@ div :id {
 
 .depoimento {
   display: inline-block;
-  margin: 15px;
-  width: 300px;
-  padding: 10px;
+    margin: 15px;
+    width: 300px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   background-color: #fcaebd;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
 }
 
 .depoimento img {
