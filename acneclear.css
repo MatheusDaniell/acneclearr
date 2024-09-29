@@ -573,13 +573,14 @@ body {
     flex-direction: column;
   }
 
+
   nav li {
       margin-right: 20px;
   }
 }
 
 /* Estilos para larguras menores (dispositivos móveis) */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   nav ul {
       flex-direction: column;
       align-items: center;
@@ -603,5 +604,43 @@ body {
   display: flex;
 }
 .text{
-  font-size: 70px;
+  font-size: 90px;
 }
+body {
+  font-size: 1.5vw; /* O texto é proporcional à largura da tela */
+}
+
+
+
+@media (max-width: 1024px) /* Para notebooks com largura máxima de 1024px */
+{
+  nav ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  nav li {
+      margin: 10px 0;
+  }
+}
+
+  body {
+    font-size: 5vw; /* Texto bem maior em celulares */
+}
+
+.div-com-nome{
+display: flex;
+}
+.top{
+display: flex;
+}            
+.top1{
+display: flex;
+}
+.top2{
+display: flex;
+}
+  
+.text{
+  font-size: 80px;
+  }
