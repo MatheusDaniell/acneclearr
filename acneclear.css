@@ -56,7 +56,7 @@ div :id {
 }
 
 .text{
-  font-size: 95px;
+  font-size: 80px;
    margin-bottom: 150px;
    margin-left: -30px; 
   color:#ff456a;
@@ -187,6 +187,16 @@ div :id {
   color: #792800
 
 }
+
+.top {
+  margin-left: 15px;
+   margin-top: 130px; 
+   margin-bottom: 90px;
+    color: #491a00; 
+    font-size: 28px;
+}
+
+
 
 .mei {
   margin-top: -25px;
@@ -544,6 +554,18 @@ body {
   
   nav ul {
       display: flex;
+  }
+  .div-com-nome{
+    display: flex;
+  }
+  .top{
+    display: flex;
+  }            
+  .top1{
+    display: flex;
+  }
+  .top2{
+    display: flex;
   }
 
   nav li {
