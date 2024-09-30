@@ -101,7 +101,7 @@
     font-size: 25px;  
     width: 85%; 
   }
-}
+
   
 
  /* SEGUNDA DIV */
@@ -114,18 +114,20 @@
   .medi{
     font-size: 20px;
     width: 76%;
- 
+  }
+  
+
+/* TERCEIRA DIV */
+
+  .mee{
+    font-size: 100px;
+  }
 
 
   .text {
     font-size: 80px; /* Texto um pouco menor em notebooks */
   }
 }
-
-
-/*FINAL DA MIDIA*/
-
-
 
 /* Estilos globais aplicáveis a todas as telas */
 .div-com-nome,
@@ -149,6 +151,10 @@ div :id {
 
  }
  
+
+/*FINAL DA MIDIA*/
+
+
 
  body {
       background-repeat: no-repeat;
@@ -324,7 +330,7 @@ div :id {
 .mee {
   margin-top: 75px;
   margin-left: -20px; 
-  font-size: 55px;
+  font-size: 60px;
   margin-bottom: 45px;
   font-family:"Rubik", sans-serif;
   font-weight: 600;
@@ -357,7 +363,7 @@ div :id {
 
 .mei {
   margin-top: -25px;
-  font-size: 15px;
+  font-size: 10px;
   font-family: "PT Serif", serif;
   font-weight: 500;
   font-style: italic;
