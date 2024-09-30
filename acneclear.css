@@ -623,11 +623,12 @@ body {
   .custom-font{
     font-size: 35px;
   }
+
   .me{
     font-size: 25px;  
-    width: 85%; 
+    width: 75%; 
   }
-
+}
   
 
 
@@ -639,7 +640,7 @@ body {
   }
   .medi{
     font-size: 30px;
-    width: 75%;
+    width: 80%;
  
 
 
