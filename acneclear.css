@@ -111,7 +111,7 @@ div :id {
 
 
 .text1{
-  font-size: 75px;
+  font-size: 80px;
   margin-bottom: 100px;
   margin-top: 70px;
   margin-left: 35px; 
@@ -124,7 +124,7 @@ div :id {
 
 .custom {
   margin-left: 40px; 
-  font-size: 45px;
+  font-size: 50px;
   margin-bottom: 30px;
   font-family: "PT Serif", serif;
   font-weight: 700;
@@ -629,7 +629,7 @@ body {
     font-size: 1.2vw; /* Texto proporcional e menor para notebooks */
   }
 
-  .text1
+  
   .text {
     font-size: 80px; /* Texto um pouco menor em notebooks */
   }
