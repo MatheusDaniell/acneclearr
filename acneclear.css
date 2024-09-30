@@ -617,16 +617,32 @@ body {
     font-size: 1.2vw; /* Texto proporcional e menor para notebooks */
   }
 
-  .medi{
-    font-size: 25px;
-    width: 83%;
+  .text{
+    font-size: 80px;
+  }
+  .custom-font{
+    font-size: 35px;
+  }
+  .me{
+    font-size: 25px;  
+    width: 85%; 
+  }
+
+  
+
+
+  .text1{
+    font-size: 85px;
   }
   .custom{
-    font-size: 65px;
+    font-size: 40px;
   }
-  .text1{
-    font-size: 95px;
-  }
+  .medi{
+    font-size: 30px;
+    width: 75%;
+ 
+
+
   .text {
     font-size: 80px; /* Texto um pouco menor em notebooks */
   }
