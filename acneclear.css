@@ -60,7 +60,7 @@ div :id {
 }
 
 .text{
-  font-size: 70px;
+  font-size: 75px;
    margin-bottom: 150px;
    margin-left: -30px; 
   color:#ff456a;
@@ -101,7 +101,7 @@ div :id {
     margin-top: 4px; 
     font-size: 25px; 
     display: inline-block; 
-    width: 75%; 
+    width: 80%; 
     font-family: "Baskervville SC", serif;
     font-weight: 550;
     font-style: normal;
