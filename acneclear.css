@@ -56,9 +56,10 @@
     font-size: 65px;
   }
  
-
+  .mei{
+    font-size: 65px;
+  }
 }
-
 
 
 /* Estilos para celular (max-width: 1024px) */
@@ -118,10 +119,6 @@
   
 
 /* TERCEIRA DIV */
-
-  .mee{
-    font-size: 100px;
-  }
 
 
   .text {
