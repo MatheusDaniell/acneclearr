@@ -621,7 +621,7 @@ body {
 
 
   .che{
-    width: 80%; 
+    width: 70%; 
     font-size: 20px;
   }
 
@@ -660,7 +660,6 @@ body {
 /* Estilos globais aplicáveis a todas as telas */
 .div-com-nome,
 .top,
-.top1,
 .top2,
 .custom,
 .top3 {
