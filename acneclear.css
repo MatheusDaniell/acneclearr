@@ -547,100 +547,86 @@ body {
   border-radius: 10px;
 
  }
-
- 
-/* Estilos para larguras maiores (desktop) */
+/* Estilos para larguras maiores (desktop - acima de 768px) */
 @media screen and (min-width: 768px) {
   header, nav, main, footer {
-      max-width: 960px;
-      margin: 0 auto;
+    max-width: 960px;
+    margin: 0 auto;
   }
-  
+
   nav ul {
-      display: flex;
-  }
-  .div-com-nome{
     display: flex;
   }
-  .top{
-    display: flex;
-  }            
-  .top1{
+
+  nav li {
+    margin-right: 20px;
+  }
+
+  /* Estilos flexíveis para desktop */
+  .div-com-nome,
+  .top,
+  .top1 {
     display: flex;
   }
-  .top2{
+
+  .top2 {
     display: flex;
     flex-direction: column;
   }
-
-
-  nav li {
-      margin-right: 20px;
-  }
 }
 
-/* Estilos para larguras menores (dispositivos móveis) */
+/* Estilos para dispositivos móveis (max-width: 480px) */
 @media screen and (max-width: 480px) {
   nav ul {
-      flex-direction: column;
-      align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   nav li {
-      margin: 10px 0;
-  }
-}
-
-.div-com-nome{
-  display: flex;
-}
-.top{
-  display: flex;
-}            
-.top1{
-  display: flex;
-}
-.top2{
-  display: flex;
-}
-.text{
-  font-size: 90px;
-}
-body {
-  font-size: 1.5vw; /* O texto é proporcional à largura da tela */
-}
-
-
-
-@media (max-width: 1024px) /* Para notebooks com largura máxima de 1024px */
-{
-  nav ul {
-      flex-direction: column;
-      align-items: center;
+    margin: 10px 0;
   }
 
-  nav li {
-      margin: 10px 0;
-  }
-}
-
+  /* Texto bem maior para celular */
   body {
-    font-size: 5vw; /* Texto bem maior em celulares */
+    font-size: 6vw; /* Aumenta o texto em dispositivos móveis */
+  }
+
+  .text {
+    font-size: 100px; /* Tamanho de texto grande para celular */
+  }
 }
 
-.div-com-nome{
-display: flex;
-}
-.top{
-display: flex;
-}            
-.top1{
-display: flex;
-}
-.top2{
-display: flex;
-}
-  
-.text{
-  font-size: 80px;
+/* Estilos para notebooks (max-width: 1024px) */
+@media (max-width: 1024px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
   }
+
+  nav li {
+    margin: 10px 0;
+  }
+
+  /* Texto menor para notebooks */
+  body {
+    font-size: 1.2vw; /* Texto proporcional e menor para notebooks */
+  }
+
+  .text {
+    font-size: 80px; /* Texto um pouco menor em notebooks */
+  }
+}
+
+/* Estilos globais aplicáveis a todas as telas */
+.div-com-nome,
+.top,
+.top1,
+.top2,
+.top3 {
+  display: flex;
+}
+
+.top2,
+.top3 {
+  flex-direction: column;
+}
