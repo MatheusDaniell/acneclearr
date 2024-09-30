@@ -60,11 +60,11 @@ div :id {
 }
 
 .text{
-  font-size: 80px;
+  font-size: 60px;
    margin-bottom: 150px;
    margin-left: -30px; 
   color:#ff456a;
-   width: 70%;
+   width: 60%;
    font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-style: italic;
@@ -101,7 +101,7 @@ div :id {
     margin-top: 4px; 
     font-size: 20px; 
     display: inline-block; 
-    width: 85%; 
+    width: 65%; 
     font-family: "Baskervville SC", serif;
     font-weight: 550;
     font-style: normal;
@@ -594,6 +594,7 @@ body {
   .text {
     font-size: 100px; /* Tamanho de texto grande para celular */
   }
+ 
 }
 
 /* Estilos para notebooks (max-width: 1024px) */
