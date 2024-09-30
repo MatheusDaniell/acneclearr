@@ -589,31 +589,19 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .medi{
+    font-size: 21px;
+    width: 65%;
+  }
+  .custom{
+    font-size: 32px;
+  }
+  .text1{
+    font-size: 65px;
+  }
 }
 
-/* Estilos para dispositivos móveis (max-width: 480px) */
-@media screen and (max-width: 480px) {
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav li {
-    margin: 10px 0;
-  }
-
-  /* Texto bem maior para celular */
-  body {
-    font-size: 6vw; /* Aumenta o texto em dispositivos móveis */
-  }
-
-  .text {
-    font-size: 100px; /* Tamanho de texto grande para celular */
-  }
- 
-}
-
-/* Estilos para notebooks (max-width: 1024px) */
+/* Estilos para celular (max-width: 1024px) */
 @media (max-width: 1024px) {
   nav ul {
     flex-direction: column;
@@ -629,7 +617,16 @@ body {
     font-size: 1.2vw; /* Texto proporcional e menor para notebooks */
   }
 
-  
+  .medi{
+    font-size: 32px;
+    width: 70%;
+  }
+  .custom{
+    font-size: 50px;
+  }
+  .text1{
+    font-size: 90px;
+  }
   .text {
     font-size: 80px; /* Texto um pouco menor em notebooks */
   }
