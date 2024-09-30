@@ -618,15 +618,15 @@ body {
   }
 
   .text{
-    font-size: 80px;
+    font-size: 85px;
   }
   .custom-font{
-    font-size: 35px;
+    font-size: 40px;
   }
 
   .me{
     font-size: 25px;  
-    width: 75%; 
+    width: 83%; 
   }
 }
   
@@ -636,10 +636,10 @@ body {
     font-size: 85px;
   }
   .custom{
-    font-size: 40px;
+    font-size: 60px;
   }
   .medi{
-    font-size: 30px;
+    font-size: 25px;
     width: 80%;
  
 
