@@ -78,9 +78,6 @@
     font-size: 1.2vw; /* Texto proporcional e menor para notebooks */
   }
 
-
-
-
   .top1{
     
     font-size: 20px;
@@ -118,8 +115,27 @@
   }
   
 
-/* TERCEIRA DIV */
+/* Responsividade dos DEPOIMENTOS */
+@media (max-width: 768px) {
+  .depoimento {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+}
 
+@media (max-width: 480px) {
+  .depoimentos h2 {
+      font-size: 1.5rem;
+  }
+
+  .depoimento {
+      padding: 5px;
+  }
+
+  .depoimento img {
+      border-radius: 4px;
+  }
+}
 
   .text {
     font-size: 80px; /* Texto um pouco menor em notebooks */
@@ -383,10 +399,9 @@ div :id {
   margin-bottom: 100px;
   color:#5c1f00;
 
-
-
 }
 
+/*DEPOIMENTOS*/
 
 .depoimentos {
   text-align: center;
@@ -394,23 +409,20 @@ div :id {
 }
 
 .depoimentos h2 {
-  font-size: 80px;
-  font-family:PT Serif serif;
-  font-weight: 800; 
-  color:#e2163f;
-  margin-top: 50px;
-  margin-bottom: 140px;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
 }
 
 .depoimento {
   display: inline-block;
-    margin: 15px;
-    width: 300px;
-    border: 1px solid #ddd;
-    padding: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  background-color: #fcaebd;
-
+  margin: 15px;
+  width: 300px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
 }
 
 .depoimento img {
@@ -421,18 +433,6 @@ div :id {
 
 
 
-
-  .div-com-nome{
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 999;
-  justify-content: space-evenly;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 101%;
-  background-color: #ff5465;
-  }
 
   .nome {
     font-size: 26px;
