@@ -617,6 +617,14 @@ body {
     font-size: 1.2vw; /* Texto proporcional e menor para notebooks */
   }
 
+
+
+
+  .che{
+    width: 80%; 
+    font-size: 20px;
+  }
+
   .text{
     font-size: 85px;
   }
@@ -633,7 +641,7 @@ body {
 
 
   .text1{
-    font-size: 85px;
+    font-size: 90px;
   }
   .custom{
     font-size: 60px;
