@@ -152,7 +152,9 @@
 .top,
 .top2,
 .custom,
-.top3 {
+.top3
+.top4
+.main {
   display: flex;
 }
 
@@ -232,16 +234,6 @@ div :id {
  
 }
 
-
- 
-.main{
-  display: inline-block;
-  width: 90%;
-  font-size: 15px;
-  margin-bottom: 100px;
-  color:#5c1f00 ;
-
-}
 
 .custom-font {
   margin-left: -30px; 
@@ -369,6 +361,7 @@ div :id {
 
 }
 
+
 .mei {
   margin-top: -25px;
   font-size: 8px;
@@ -395,15 +388,22 @@ div :id {
   color: #272727
 }
 
+.main{
+  display: inline-block;
+  width: 80%;
+  font-size: 13px;
+  margin-bottom: 100px;
+  color:#5c1f00 ;
+
+}
 
 .mit{
-  margin-top: -50px;
   display: inline-block;
-  width: 90%;
-  font-size: 30px;
+  width: 70%;
+  font-size: 23px;
+  margin-top: -60px;
   margin-bottom: 100px;
-  color:#5c1f00;
-
+  color:#5c1f00 ;
 
 
 }
