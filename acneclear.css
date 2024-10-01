@@ -78,6 +78,9 @@
     font-size: 1.2vw; /* Texto proporcional e menor para notebooks */
   }
 
+
+
+
   .top1{
     
     font-size: 20px;
@@ -118,8 +121,8 @@
 /* Responsividade dos DEPOIMENTOS */
 @media (max-width: 768px) {
   .depoimento {
-      width: 100%;
-      margin-bottom: 20px;
+      flex: 1 1 45%; /* Depoimentos ficam lado a lado em telas menores */
+      max-width: 100%;
   }
 }
 
@@ -129,7 +132,9 @@
   }
 
   .depoimento {
-      padding: 5px;
+      flex: 1 1 100%; /* Cada depoimento ocupa toda a largura da tela */
+      padding: 10px;
+      max-width: 100%;
   }
 
   .depoimento img {
@@ -399,10 +404,11 @@ div :id {
   margin-bottom: 100px;
   color:#5c1f00;
 
+
+
 }
 
 /*DEPOIMENTOS*/
-
 .depoimentos {
   text-align: center;
   padding: 50px 0;
@@ -414,13 +420,20 @@ div :id {
   color: #333;
 }
 
+.depoimentos-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 .depoimento {
-  display: inline-block;
-  margin: 15px;
-  width: 300px;
-  border: 1px solid #ddd;
+  flex: 1 1 30%; /* Ajusta o tamanho dos depoimentos */
+  max-width: 300px;
+  min-width: 250px;
+  border: 1px solid #fdc4c1;
   padding: 10px;
-  background-color: white;
+  background-color: rgb(255, 182, 182)c9;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
 }
@@ -432,7 +445,17 @@ div :id {
 }
 
 
-
+  .div-com-nome{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 101%;
+  background-color: #ff5465;
+  }
 
   .nome {
     font-size: 26px;
