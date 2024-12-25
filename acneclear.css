@@ -250,7 +250,7 @@ div :id {
     margin-left: -28px;
     margin-right: -25px;
     margin-top: 4px; 
-    font-size: 40px; 
+    font-size: 43px; 
     display: inline-block; 
     width: 80%; 
     font-family: "Baskervville SC", serif;
@@ -275,7 +275,7 @@ div :id {
 
 .custom {
   margin-left: 40px; 
-  font-size: 65px;
+  font-size: 60px;
   margin-bottom: 30px;
   font-family: "PT Serif", serif;
   font-weight: 700;
@@ -301,7 +301,7 @@ div :id {
   margin-left: 40px;
   margin-right: -25px;
   margin-top: 4px; 
-  font-size: 50px; 
+  font-size: 42px; 
   display: inline-block; 
   width: 72%; 
   font-family: "Baskervville SC", serif;
@@ -362,7 +362,7 @@ div :id {
 
 .mei {
   margin-top: -25px;
-  font-size: 12px;
+  font-size: 15px;
   font-family: "PT Serif", serif;
   font-weight: 500;
   font-style: italic;
@@ -454,7 +454,7 @@ div :id {
     font-family: "Wittgenstein", serif;
     font-weight: 700;
     font-style: italic;
-    font-size: 26px;
+    font-size: 21px;
 }
 
   .che {
