@@ -50,10 +50,10 @@
     width: 65%;
   }
   .custom{
-    font-size: 32px;
+    font-size: 70px;
   }
   .text1{
-    font-size: 65px;
+    font-size: 90px;
   }
  
   .mei{
@@ -83,7 +83,7 @@
 
   .top1{
     
-    font-size: 20px;
+    font-size: 25px;
   }
 
 /* PRIMEIRA DIV */
@@ -109,9 +109,7 @@
   .text1{
     font-size: 90px;
   }
-  .custom{
-    font-size: 60px;
-  }
+
   .medi{
     font-size: 20px;
     width: 76%;
@@ -223,7 +221,7 @@ div :id {
 }
 
 .text{
-  font-size: 75px;
+  font-size: 90px;
    margin-bottom: 150px;
    margin-left: -30px; 
   color:#ff456a;
@@ -239,7 +237,7 @@ div :id {
   margin-left: -30px; 
   margin-right: -33px;
   margin-top: 20px; 
-  font-size: 35px;
+  font-size: 55px;
   margin-bottom: 30px;
   font-family: "PT Serif", serif;
   font-weight: 700;
@@ -252,7 +250,7 @@ div :id {
     margin-left: -28px;
     margin-right: -25px;
     margin-top: 4px; 
-    font-size: 25px; 
+    font-size: 40px; 
     display: inline-block; 
     width: 80%; 
     font-family: "Baskervville SC", serif;
@@ -264,7 +262,7 @@ div :id {
 
 
 .text1{
-  font-size: 75px;
+  font-size: 90px;
   margin-bottom: 100px;
   margin-top: 70px;
   margin-left: 35px; 
@@ -277,7 +275,7 @@ div :id {
 
 .custom {
   margin-left: 40px; 
-  font-size: 50px;
+  font-size: 65px;
   margin-bottom: 30px;
   font-family: "PT Serif", serif;
   font-weight: 700;
@@ -303,7 +301,7 @@ div :id {
   margin-left: 40px;
   margin-right: -25px;
   margin-top: 4px; 
-  font-size: 25px; 
+  font-size: 50px; 
   display: inline-block; 
   width: 72%; 
   font-family: "Baskervville SC", serif;
@@ -316,7 +314,7 @@ div :id {
 
 
 .text2{
-  font-size: 80px;
+  font-size: 90px;
   margin-bottom: 150px;
   margin-left: -30px; 
   color:#ff456a;
@@ -340,7 +338,7 @@ div :id {
 .mee {
   margin-top: 75px;
   margin-left: -20px; 
-  font-size: 65px;
+  font-size: 70px;
   margin-bottom: 45px;
   font-family:"Rubik", sans-serif;
   font-weight: 600;
@@ -351,7 +349,7 @@ div :id {
 .ter {
   margin-left: -0px; 
   margin-top: -40px;
-  font-size: 45px;
+  font-size: 50px;
   width: 50%;
   margin-bottom: 30px;
   font-family: "PT Serif", serif;
@@ -364,7 +362,7 @@ div :id {
 
 .mei {
   margin-top: -25px;
-  font-size: 8px;
+  font-size: 12px;
   font-family: "PT Serif", serif;
   font-weight: 500;
   font-style: italic;
@@ -456,7 +454,7 @@ div :id {
     font-family: "Wittgenstein", serif;
     font-weight: 700;
     font-style: italic;
-    font-size: 27px;
+    font-size: 26px;
 }
 
   .che {
@@ -464,7 +462,7 @@ div :id {
     font-family: "Anton SC", sans-serif;
     font-weight: 600;
     font-style: italic;
-    font-size: 27px;
+    font-size: 29px;
     color: #461800;
 }
 
