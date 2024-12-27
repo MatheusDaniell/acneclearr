@@ -389,7 +389,7 @@ div :id {
 .main{
   display: inline-block;
   width: 85%;
-  font-size: 20;
+  font-size: 30;
   margin-bottom: 100px;
   color:#6d2400 ;
 }
@@ -451,7 +451,7 @@ div :id {
     }
 
   .md {
-    font-family: "Wittgenstein", serif;
+    font-family: 'Archivo Black', serif;
     font-weight: 700;
     font-style: italic;
     font-size: 21px;
@@ -511,11 +511,6 @@ display: inline-block;
   font-weight: weight;
   font-style: normal;
   color: #3D1501;
-}
-
-h1 {
-   font-family: 'Archivo Black', sans-serif;
-  
 }
 
 h2 {
