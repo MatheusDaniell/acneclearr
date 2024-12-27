@@ -389,7 +389,7 @@ div :id {
 .main{
   display: inline-block;
   width: 85%;
-  font-size: 20;
+  font-size: 25;
   margin-bottom: 100px;
   color:#6d2400 ;
 }
@@ -451,8 +451,9 @@ div :id {
     }
 
   .md {
-    font-family: "Wittgenstein", serif;
-    font-weight: 700;
+    font-family: "PT Serif", serif;
+  font-weight: 400;
+
     font-style: italic;
     font-size: 21px;
 }
