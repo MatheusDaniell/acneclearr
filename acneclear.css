@@ -450,12 +450,7 @@ div :id {
     text-transform: uppercase;
     }
 
-  .md {
-    font-family: 'Archivo Black', serif;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 21px;
-}
+
 
   .che {
     width: 70%; 
@@ -511,6 +506,13 @@ display: inline-block;
   font-weight: weight;
   font-style: normal;
   color: #3D1501;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+    font-style: italic;
+    font-size: 21px;
 }
 
 h2 {
