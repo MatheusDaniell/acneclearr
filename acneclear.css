@@ -35,7 +35,7 @@
 }
 
 .me{
-  font-size: 25px;  
+  font-size: 30px;  
   width: 85%; 
 }
 
@@ -301,7 +301,7 @@ div :id {
   margin-left: 40px;
   margin-right: -25px;
   margin-top: 4px; 
-  font-size: 42px; 
+  font-size: 45px; 
   display: inline-block; 
   width: 72%; 
   font-family: "Baskervville SC", serif;
