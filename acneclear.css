@@ -220,8 +220,17 @@ div :id {
 
 }
 
+.textp{
+  font-size: 70px;
+  text-align: center;
+  color: #ff456a;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
 .text{
-  font-size: 90px;
+  font-size: 95px;
    margin-bottom: 150px;
    margin-left: -30px; 
   color:#ff456a;
@@ -237,11 +246,11 @@ div :id {
   margin-left: -30px; 
   margin-right: -33px;
   margin-top: 20px; 
-  font-size: 55px;
+  font-size: 65px;
   margin-bottom: 30px;
-  font-family: "PT Serif", serif;
+  font-family: "Roboto Condensed", serif;
   font-weight: 700;
-  font-style: normal;
+  font-style: italic;
   color: rgb(224, 39, 95)
   
 }
@@ -250,11 +259,11 @@ div :id {
     margin-left: -28px;
     margin-right: -25px;
     margin-top: 4px; 
-    font-size: 43px; 
+    font-size: 45px; 
     display: inline-block; 
     width: 80%; 
-    font-family: "Baskervville SC", serif;
-    font-weight: 550;
+    font-family:"Roboto", serif;
+    font-weight: 600;
     font-style: normal;
     color: #5c1f00
 }
@@ -275,11 +284,11 @@ div :id {
 
 .custom {
   margin-left: 40px; 
-  font-size: 64px;
+  font-size: 68px;
   margin-bottom: 30px;
-  font-family: "PT Serif", serif;
+  font-family: "Roboto Condensed", serif;
   font-weight: 700;
-  font-style: normal;
+  font-style: italic;
   color: #e6264c
 }
 
@@ -304,7 +313,7 @@ div :id {
   font-size: 45px; 
   display: inline-block; 
   width: 72%; 
-  font-family: "Baskervville SC", serif;
+  font-family: "Roboto", serif;
   font-weight: 550;
   font-style: normal;
   color: #6b2400
@@ -353,7 +362,7 @@ div :id {
   font-size: 50px;
   width: 50%;
   margin-bottom: 30px;
-  font-family: "PT Serif", serif;
+  font-family: "Roboto", serif;
   font-weight: 500;
   font-style: normal;
   color: #792800
@@ -390,7 +399,7 @@ div :id {
 .main{
   display: inline-block;
   width: 85%;
-  font-size: 25;
+  font-size: 28;
   margin-bottom: 100px;
   color:#6d2400 ;
 }
@@ -430,6 +439,19 @@ div :id {
   width: 100%;
   height: auto;
   border-radius: 8px;
+}
+
+/*Imagem */
+
+.imagem-container {
+  width: 95%; /* Faz o contêiner ocupar 100% da largura */
+  overflow: hidden; /* Garante que nada saia do contêiner */
+}
+
+.imagem-responsiva {
+  width: 95%; /* A imagem ocupa 100% da largura do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+  display: block; /* Remove qualquer espaço em branco ao redor da imagem */
 }
 
 
