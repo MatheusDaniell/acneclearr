@@ -221,7 +221,7 @@ div :id {
 }
 
 .textp{
-  font-size: 70px;
+  font-size: 65px;
   text-align: center;
   color: #ff456a;
   font-family: "Rubik", sans-serif;
@@ -259,7 +259,7 @@ div :id {
     margin-left: -28px;
     margin-right: -25px;
     margin-top: 4px; 
-    font-size: 45px; 
+    font-size: 40px; 
     display: inline-block; 
     width: 80%; 
     font-family:"Roboto", serif;
@@ -284,7 +284,7 @@ div :id {
 
 .custom {
   margin-left: 40px; 
-  font-size: 68px;
+  font-size: 70px;
   margin-bottom: 30px;
   font-family: "Roboto Condensed", serif;
   font-weight: 700;
@@ -310,7 +310,7 @@ div :id {
   margin-left: 40px;
   margin-right: -25px;
   margin-top: 4px; 
-  font-size: 45px; 
+  font-size: 40px; 
   display: inline-block; 
   width: 72%; 
   font-family: "Roboto", serif;
