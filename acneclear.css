@@ -268,7 +268,25 @@ div :id {
     color: #5c1f00
 }
 
+.mem{
+    margin-left: -28px;
+    margin-right: -25px;
+    margin-top: 4px; 
+    font-size: 40px; 
+    display: inline-block; 
+    width: 80%; 
+    font-family:"Raleway", serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #5c1f00
+}
 
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: -10px;
+   }
 
 .text1{
   font-size: 90px;
@@ -291,6 +309,7 @@ div :id {
   font-style: italic;
   color: #e6264c
 }
+
 
 .med{
   margin-left: 40px;
@@ -369,6 +388,17 @@ div :id {
 
 }
 
+.custom-ff{
+  margin-left: -30px; 
+  margin-right: -33px;
+  margin-top: 10px; 
+  font-size: 65px;
+  margin-bottom: -60px;
+  font-family: "Roboto Condensed", serif;
+  font-weight: 700;
+  font-style: italic;
+  color: rgb(224, 39, 95)
+}
 
 .mei {
   margin-top: -25px;
@@ -377,6 +407,16 @@ div :id {
   font-weight: 500;
   font-style: italic;
   color: #272727
+}
+
+.mec{
+    font-size: 40px; 
+    display: inline-block; 
+    width: 80%; 
+    font-family:"Roboto", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #5c1f00
 }
 
 .top {
