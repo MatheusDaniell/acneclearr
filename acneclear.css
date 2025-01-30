@@ -230,7 +230,7 @@ div :id {
 }
 
 .text{
-  font-size: 95px;
+  font-size: 85px;
    margin-bottom: 150px;
    margin-left: -30px; 
   color:#ff456a;
@@ -246,7 +246,7 @@ div :id {
   margin-left: -30px; 
   margin-right: -33px;
   margin-top: 20px; 
-  font-size: 65px;
+  font-size: 63px;
   margin-bottom: 30px;
   font-family: "Roboto Condensed", serif;
   font-weight: 700;
@@ -289,7 +289,7 @@ div :id {
    }
 
 .text1{
-  font-size: 90px;
+  font-size: 83px;
   margin-bottom: 100px;
   margin-top: 70px;
   margin-left: 35px; 
@@ -301,8 +301,8 @@ div :id {
 }
 
 .custom {
-  margin-left: 40px; 
-  font-size: 70px;
+  margin-left: 35px; 
+  font-size: 67px;
   margin-bottom: 30px;
   font-family: "Roboto Condensed", serif;
   font-weight: 700;
